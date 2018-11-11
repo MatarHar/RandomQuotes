@@ -7,7 +7,7 @@
 session_start();
 $array= array('0','',''); //connection,quote,author
 $_SESSION['info'] = $array; 
-require_once('php/roll.php');
+require_once('roll.php');
 ?>
 
 <!DOCTYPE html>
